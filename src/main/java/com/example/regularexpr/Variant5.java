@@ -3,7 +3,7 @@ package com.example.regularexpr;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegularExpr {
+public class Variant5 {
     public void GetSovpadenie() {
     String string = "ДСФ ДСДС ОШМ 123456";
     Pattern p = Pattern.compile("ДСФ");
@@ -12,6 +12,7 @@ public class RegularExpr {
 
     {
         System.out.println("Есть совпадения " + m.group());  // group() возвращает строку
+        System.out.println();
     }
         else
 
